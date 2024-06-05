@@ -1,0 +1,32 @@
+2024-06-05T02:00:58.513-06:00  INFO 8932 --- [BasicSpringCrud] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-05T02:00:58.524-06:00  INFO 8932 --- [BasicSpringCrud] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-05T02:00:58.525-06:00  INFO 8932 --- [BasicSpringCrud] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-06-05T02:00:58.527-06:00  INFO 8932 --- [BasicSpringCrud] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-06-05T02:00:58.574-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.a.B.BasicSpringCrudApplication         : Starting BasicSpringCrudApplication using Java 17.0.10 with PID 8932 (D:\Eclipse\Projects\BasicSpringCrud\target\classes started by roperote in D:\Eclipse\Projects\BasicSpringCrud)
+2024-06-05T02:00:58.574-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.a.B.BasicSpringCrudApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-06-05T02:00:58.654-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-05T02:00:58.659-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 3 JPA repository interfaces.
+2024-06-05T02:00:58.697-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-06-05T02:00:58.698-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-05T02:00:58.698-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-05T02:00:58.713-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-05T02:00:58.713-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 138 ms
+2024-06-05T02:00:58.749-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-05T02:00:58.750-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-05T02:00:58.755-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-05T02:00:58.755-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-06-05T02:00:58.757-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection org.mariadb.jdbc.Connection@e5b61c6
+2024-06-05T02:00:58.757-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-06-05T02:00:58.782-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-05T02:00:58.786-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-05T02:00:58.860-06:00  WARN 8932 --- [BasicSpringCrud] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-05T02:00:58.985-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-05T02:00:58.986-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path ''
+2024-06-05T02:00:58.995-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-06-05T02:00:58.998-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] o.a.B.BasicSpringCrudApplication         : Started BasicSpringCrudApplication in 0.431 seconds (process running for 889.584)
+2024-06-05T02:00:58.999-06:00  INFO 8932 --- [BasicSpringCrud] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-05T02:01:08.638-06:00  INFO 8932 --- [BasicSpringCrud] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-05T02:01:08.638-06:00  INFO 8932 --- [BasicSpringCrud] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-05T02:01:08.638-06:00  INFO 8932 --- [BasicSpringCrud] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-05T02:01:08.639-06:00  INFO 8932 --- [BasicSpringCrud] [http-nio-8085-exec-1] o.a.B.controllers.EntidadController      : Devolviendo todas las entidades
+2024-06-05T02:01:08.641-06:00 DEBUG 8932 --- [BasicSpringCrud] [http-nio-8085-exec-1] org.hibernate.SQL                        : select e1_0.id_entidad,e1_0.nombre_entidad from entidad e1_0 order by e1_0.nombre_entidad
